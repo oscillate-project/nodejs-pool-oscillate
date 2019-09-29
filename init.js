@@ -14,10 +14,10 @@ global.protos = protobuf(fs.readFileSync('./lib/data.proto'));
 global.argv = argv;
 let comms;
 let coinInc;
-
+// git pull oscillate.dope
 // Config Table Layout
 // <module>.<item>
-
+// THATS FUCKING DOPE!
 global.mysql.query("SELECT * FROM config").then(function (rows) {
     rows.forEach(function (row){
         if (!global.config.hasOwnProperty(row.module)){
